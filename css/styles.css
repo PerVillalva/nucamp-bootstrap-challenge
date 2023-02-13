@@ -38,6 +38,12 @@ header h2 {
     background-color: #901cad;
 }
 
+.tab-content {
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 10px;
+}
+
 /* Prevent media images from overflowing */
 div.media img.d-flex {
     min-width: 0;
