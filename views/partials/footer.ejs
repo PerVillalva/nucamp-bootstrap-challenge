@@ -48,3 +48,12 @@
         </div>
     </div>
 </footer>
+
+<!-- Add "active" navigation class based on URL  -->
+<script>
+    for (let navElement of document.querySelectorAll("li.nav-item a")) {
+        window.location.pathname === navElement.getAttribute("href")
+            ? navElement.classList.add("active")
+            : "";
+    }
+</script>
